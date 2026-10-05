@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: user_management
   datasource:
     # FIXED: Replaced host.docker.internal with 127.0.0.1 since the app is running on local Mac
     url: jdbc:mysql://127.0.0.1:3306/customer?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
